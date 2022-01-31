@@ -6,7 +6,7 @@ function ChatTitle() {
     return (
         <div id="chat-title">
             <span>Daryl Duckmanton</span>
-            <img src={require("../../images/icons/trash-logo.svg")} alt="Delete Conversation" />
+            <img src={require("../../images/icons/call.png")} alt="Delete Conversation"  />
         </div>
     );
 }

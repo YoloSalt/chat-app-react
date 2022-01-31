@@ -26,7 +26,7 @@ function ConversationList() {
                 <div className="title-text">John Anderson</div>
                 <div className="created-date">1 week ago</div>
                 <div className="conversation-message">
-                    Yes I love how Python does that
+                    Yeaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
                 </div>
             </div>
             <div className="conversation">
@@ -34,7 +34,7 @@ function ConversationList() {
                 <div className="title-text">Ben Smith</div>
                 <div className="created-date">2:49 PM</div>
                 <div className="conversation-message">
-                    Yeah Miami Heat are done
+                    Yoloooo123
                 </div>
             </div>
             <div className="conversation">

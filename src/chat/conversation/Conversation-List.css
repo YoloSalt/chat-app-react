@@ -1,22 +1,22 @@
 #conversation-list {
     grid-area: conversation-list;
-    background: #0048AA;
+    background: #ce9657;
     overflow-y: scroll;
 }
 
 .conversation {
-    display: grid;
+    display: grid;display:-ms-grid;
     grid-template-columns: 40px 1fr max-content;
     grid-gap: 10px;
     color: #ddd;
     font-size: 1.3rem;
-    border-bottom: 1px solid #002C88;
+    border-bottom: 1px solid #885200;
     padding: 20px 20px 20px 15px;
   }
   
   .conversation.active,
   .conversation:hover {
-    background: #002C88;
+    background: #885200;
   }
   
   .conversation:hover {

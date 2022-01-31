@@ -1,9 +1,9 @@
 #new-message-container {
-    background: #0048AA;
+    background: #d37102;
   }
   
   #new-message-container {
-    display: grid;
+    display: grid;display:-ms-grid;
     grid: 40px / 40px;
     align-content: center;
     grid-area: new-message-container;
@@ -13,11 +13,11 @@
   }
   
   #new-message-container a {
-    display: grid;
+    display: grid;display:-ms-grid;
     place-content: center center;
     background: #eee;
     border-radius: 100%;
-    color: #002C88;
+    color: #886f00;
     text-decoration: none;
     font-size: 3.6rem;
   }

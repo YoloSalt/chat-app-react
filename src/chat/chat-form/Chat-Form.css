@@ -4,10 +4,12 @@
   
   #chat-form > img {
     cursor: pointer;
+    height: 3em;
+    padding-right: 3em;
   }
   
   #chat-form {
-    display: grid;
+    display: grid;display:-ms-grid;
     grid: 51px / 32px 1fr;
     align-content: center;
     align-items: center;
@@ -22,8 +24,9 @@
   #chat-form input {
     outline: none;
     padding: 15px;
-    border: 2px solid #ddd;
-    color: #330;
+    border: 2px solid rgb(255, 153, 0);
+    color: rgb(51, 33, 0);
+    background-color: rgb(255, 225, 187);
     border-radius: 6px;
     font-size: 1.4rem;
   }

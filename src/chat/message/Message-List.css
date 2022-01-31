@@ -7,13 +7,13 @@
   }
   
   .message-row {
-    display: grid;
+    display: grid;display:-ms-grid;
     grid-template-columns: 70%;
     margin-bottom: 20px;
   }
   
   .message-content {
-    display: grid;
+    display: grid;display:-ms-grid;
   }
   
   .you-message {
@@ -50,9 +50,9 @@
   }
   
   .you-message .message-text {
-    background: #0048AA;
+    background: #aa8200;
     color: #eee;
-    border: 1px solid #0048AA;
+    border: 1px solid #aa7400;
     border-radius: 14px 14px 0 14px;
   }
   

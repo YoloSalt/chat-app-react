@@ -1,0 +1,61 @@
+body {
+    background: rgb(2, 0, 36);
+    background: radial-gradient(
+      circle,
+      rgb(36, 22, 0) 0%,
+      rgb(59, 51, 30) 0%,
+      rgb(175, 131, 66) 100%
+    );
+  }
+  
+  .container {
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 0vh;
+    max-width: 500px;
+    width: 100%;
+    margin: auto;
+  }
+  .container > form {
+    width: 400px;
+    
+    height: 300px;
+    border: 1px solid #dfdfdf;
+    padding: 20px;
+    border-radius: 5px;
+    background: #fff;
+  }
+  pre {
+    width: 70%;
+    color: #fff;
+    font-size: larger;
+    
+  }
+  
+  button {
+   
+     position: relative;
+           left: 0px;
+           top:20px;
+           background-color: #ffae00;
+           color: white;
+           padding: 14px 20px;
+           margin: 8px 0;
+           border: none;
+           cursor: pointer;
+           width: 100%;
+           border-radius: 5px;
+   
+    
+  }
+  p {
+    color: red;
+  }
+  h1 {
+    position: relative;
+    left: 130px;
+    font-size: 30px;
+  }
+  
